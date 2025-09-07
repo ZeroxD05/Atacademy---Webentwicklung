@@ -4,9 +4,9 @@
   "description": "Atacademy Webentwicklung",
   "main": "index.js",
   "scripts": {
-    "dev": "npx vite",
+    "dev": "vite",
     "build": "vite build",
-    "start": "vite preview"
+    "start": "vite preview --port $PORT --host"
   },
   "keywords": [],
   "author": "Atacademy",
@@ -14,6 +14,7 @@
   "engines": {
     "node": "20.x"
   },
+  "dependencies": {},
   "devDependencies": {
     "vite": "^5.4.8"
   }
