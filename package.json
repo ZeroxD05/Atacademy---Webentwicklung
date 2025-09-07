@@ -1,0 +1,17 @@
+{
+  "name": "Webdev",
+  "version": "1.0.0",
+  "description": "Atacademy Webentwicklung",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Atacademy",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.8"
+  }
+}
