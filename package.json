@@ -1,21 +1,15 @@
 {
-  "name": "Webdev",
+  "name": "atacademy-analytics",
   "version": "1.0.0",
-  "description": "Atacademy Webentwicklung",
-  "main": "index.js",
+  "private": true,
+  "type": "commonjs",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "vite preview --port $PORT --host"
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
   },
-  "keywords": [],
-  "author": "Atacademy",
-  "license": "ISC",
-  "engines": {
-    "node": "20.x"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "vite": "^5.4.8"
+  "dependencies": {
+    "express": "^4.19.2",
+    "geoip-lite": "^1.4.7",
+    "stripe": "^18.5.0"
   }
 }
